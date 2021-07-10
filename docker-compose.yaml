@@ -1,0 +1,10 @@
+version: '3'
+services:
+  backend:
+    image: felixgilioli/imersao-fullcycle-desafio-2-backend
+    ports:
+      - "3000:3000"
+  frontend:
+    image: felixgilioli/imersao-fullcycle-desafio-2-frontend
+    ports:
+      - "3001:80"
