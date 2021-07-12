@@ -39,6 +39,28 @@ export class AppService {
           longitude: -49.283844,
         },
       },
+      {
+        title: 'Parque São Lourenço',
+        startPosition: {
+          latitude: -25.378479,
+          longitude: -49.283844,
+        },
+        endPosition: {
+          latitude: -25.352336,
+          longitude: -49.231031,
+        },
+      },
+      {
+        title: 'Parque Barreirinha',
+        startPosition: {
+          latitude: -25.352336,
+          longitude: -49.231031,
+        },
+        endPosition: {
+          latitude: -25.359968,
+          longitude: -49.257057,
+        },
+      },
     ];
     return routes;
   }
